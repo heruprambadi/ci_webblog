@@ -1,0 +1,31 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$config['cms_table_prefix'] = 'cms';
+$config['max_menu_depth'] = 10;
+
+$config['site_layout'] = 'default';
+$config['__cms_version'] = '0.7.0-stable-8';
+$config['site_language'] = 'english';
+$config['site_theme'] = 'spacelab';
+$config['cms_internet_connectivity'] = 'OFFLINE';
+$config['cms_google_analytic_property_id'] = '';
+$config['site_favicon'] = '{{ base_url }}assets/nocms/images/No-CMS-favicon.png';
+$config['site_name'] = 'Heruprambadi.com';
+$config['site_footer'] = 'Copyright © heruprambadi.com - 2015';
+$config['site_logo'] = '{{ base_url }}assets/nocms/images/custom_logo/logo160.png';
+$config['site_slogan'] = 'Website Profile';
+$config['cms_signup_activation'] = 'automatic';
+$config['cms_email_protocol'] = 'smtp';
+$config['cms_email_reply_address'] = 'no-reply@No-CMS.com';
+$config['cms_email_reply_name'] = 'admin of No-CMS';
+$config['cms_email_forgot_subject'] = 'Re-activate your account at No-CMS';
+$config['cms_email_forgot_message'] = 'Dear, {{ user_real_name }}<br />Click <a href=\"{{ site_url }}main/forgot/{{ activation_code }}\">{{ site_url }}main/forgot/{{ activation_code }}</a> to reactivate your account';
+$config['cms_email_signup_subject'] = 'Activate your account at No-CMS';
+$config['cms_email_signup_message'] = 'Dear, {{ user_real_name }}<br />Click <a href=\"{{ site_url }}main/activate/{{ activation_code }}\">{{ site_url }}main/activate/{{ activation_code }}</a> to activate your account';
+$config['cms_email_useragent'] = 'Codeigniter';
+$config['cms_email_mailpath'] = '/usr/sbin/sendmail';
+$config['cms_email_smtp_host'] = 'ssl://smtp.googlemail.com';
+$config['cms_email_smtp_user'] = 'your_gmail_address@gmail.com';
+$config['cms_email_smtp_pass'] = '';
+$config['cms_email_smtp_port'] = '465';
+$config['cms_email_smtp_timeout'] = '30';
